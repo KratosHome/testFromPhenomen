@@ -1,0 +1,19 @@
+.containerButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  button {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}
