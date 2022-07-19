@@ -11,7 +11,7 @@ export const PhotosPage = memo(() => {
     const dispatch = useAppDispatch()
     useEffect(() => {
         dispatch(fetshPhotoAction(pageId.id))
-    }, [dispatch]);
+    }, [dispatch, pageId]);
 
     const {loading, photos} = useAppSelector(state => state.getPhotoReducer)
 
